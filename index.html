@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Shri Samarth Photography</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +14,7 @@
     <nav class="navbar">
         <div class="nav-left">
             <button class="nav-btn" id="lang-toggle">EN / मराठी</button>
-            <button class="nav-btn theme-btn" id="theme-toggle">
-                <span class="theme-icon">◑</span> Theme
-            </button>
+            <button class="nav-btn theme-btn" id="theme-toggle">Theme</button>
         </div>
         
         <div class="logo-container">
@@ -34,17 +32,21 @@
             <div class="hamburger" id="hamburger">
                 <div class="bar"></div>
                 <div class="bar"></div>
+                <div class="bar"></div>
             </div>
         </div>
     </nav>
 
     <div class="mobile-menu" id="mobile-menu">
         <ul>
-            <li><a href="#weddings" class="t" data-en="Weddings" data-mr="लग्न">Weddings</a></li>
-            <li><a href="#trips" class="t" data-en="Trips" data-mr="प्रवास">Trips</a></li>
-            <li><a href="#occasions" class="t" data-en="Occasions" data-mr="प्रसंग">Occasions</a></li>
-            <li><a href="#models" class="t" data-en="Models" data-mr="मॉडेल">Models</a></li>
-            <li><a href="#real-estate" class="t" data-en="Real Estate" data-mr="रिअल इस्टेट">Real Estate</a></li>
+            <li><a href="#weddings" class="t mobile-link" data-en="Weddings" data-mr="लग्न">Weddings</a></li>
+            <li><a href="#trips" class="t mobile-link" data-en="Trips" data-mr="प्रवास">Trips</a></li>
+            <li><a href="#occasions" class="t mobile-link" data-en="Occasions" data-mr="प्रसंग">Occasions</a></li>
+            <li><a href="#models" class="t mobile-link" data-en="Models" data-mr="मॉडेल">Models</a></li>
+            <li class="mobile-controls">
+                <button class="nav-btn" id="mobile-lang-toggle">EN / मराठी</button>
+                <button class="nav-btn theme-btn" id="mobile-theme-toggle">Theme</button>
+            </li>
         </ul>
     </div>
 
